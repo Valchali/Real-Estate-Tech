@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "composite": true,          // Required for references
+    "declaration": true,        // Required for references
+    "module": "CommonJS",       // Typically used for Node.js
+    "target": "ES2020",
+    "outDir": "./dist",         // Recommended to avoid mixing .js and .ts files
+    "rootDir": "./",
+    "strict": true,
+    "esModuleInterop": true     // Helps with CommonJS/ES module interop
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules"]
+}

@@ -54,10 +54,10 @@ const HowToStart = () => {
           <div className="mt-16 bg-white rounded-lg shadow-lg p-8">
             <h3 className="text-2xl font-bold text-gray-900 mb-6">Why This Works</h3>
             <ul className="space-y-4">
-              <li className="flex items-center text-gray-600">
+              {/* <li className="flex items-center text-gray-600">
                 <span className="text-green-500 mr-2">✓</span>
                 Low Cost: All tools mentioned are free/cheap
-              </li>
+              </li> */}
               <li className="flex items-center text-gray-600">
                 <span className="text-green-500 mr-2">✓</span>
                 Fast Results: Stand out immediately (most agents still rely on flyers)
